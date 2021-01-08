@@ -1,0 +1,28 @@
+{
+  "name": "clone-book-api",
+  "version": "1.0.0",
+  "description": "the backend api for clonebook",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "gab",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "0.21.*",
+    "async": "1.5.*",
+    "s3": "latest",
+    "aws-sdk": "^2.817.0",
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.6",
+    "mongoose": "^5.9.20",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  }
+}
